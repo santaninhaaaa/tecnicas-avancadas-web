@@ -15,7 +15,7 @@ codigos **http** indicam o status de uma requisição entre cliente e servidor >
 -   codigos 4xx - erros do cliente
 -   codigos 5xx - erros do servidor
 
-# TCP/IP - Protocolo de internet (base de comunicação na internet)
+## TCP/IP - Protocolo de internet (base de comunicação na internet)
 
 TCP (transmission control panel)  - garante entrega ordeanda dos pacotes, pacote de transmição
 IP (internet protocol) - roteia os pacotes de dados pela internet (IPV4 e IPV6) - IDENTIFICAÇÃO DE CADA DISPOSITIVO
