@@ -54,3 +54,20 @@ CDN > content delivery network - melhora performance de sites distribuindo conte
 
 exemplos de cdn > cloudflare - segurança e cache
 
+# WEBSOCKETS e REST
+
+São duas abordagens diferentes para comunicação entre cliente e servidor.
+
+**Modelo de Comunicação** \
+-   ***WebSocket:***
+-   ***Rest:***
+**Protocolo** \
+-   ***WebSocket:***
+-   ***Rest:***
+**Latência e Eficiência** \
+-   ***WebSocket:***
+-   ***Rest:***
+
+certbot - pesquisar
+heroku alternatives (vercel, netify, digital ocean, railway, supabase)
+estudar sobre subir aplicação - serviços gratuitos para subir servidor
