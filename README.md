@@ -61,9 +61,11 @@ São duas abordagens diferentes para comunicação entre cliente e servidor.
 **Modelo de Comunicação** \
 -   ***WebSocket:***
 -   ***Rest:***
+
 **Protocolo** \
 -   ***WebSocket:***
 -   ***Rest:***
+
 **Latência e Eficiência** \
 -   ***WebSocket:***
 -   ***Rest:***
