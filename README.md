@@ -1,75 +1,47 @@
-# Técnicas Avançadas Web
+# Aula 1 - Introdução a Java
 
-**http (web)> protocolo principal**  (half-duplex) \
+Anotações que serão feitas depois...
 
-**outros protocolos:** 
--	ftp (file transport protocol)
--	smtp (servidor de email)
--	ssh
--   websockets (full-duplex)
+# Aula 2 - Classes e Objetos
 
-codigos **http** indicam o status de uma requisição entre cliente e servidor > \
+## Clsses
+Classificar um grupo de objetos com um grupo de características **comuns**.
+É um projeto de um objeto. É  a forma que pensamos que o objeto deve ser, mas **NUNCA** é um objeto. \
+**As classes moldam características dos objetos.** Define o que o **OBJETO** pode fazer. \
+\
+Uma classe é composta por:
+- Variáveis de instância (atributos, características);
+- Métodos (comportamento, ações do objeto)
+### Classificação
+Categorizar os objetos com grupos de propriedades
+### Generalização (Especialização)
+Um grupo grande tem mais um sub-grupo, sendo assim, especializando. Tem que se ter uma preocupação de que forma pode ser divido e identificado. O valor do atributo **NÃO** representa o diferencial do mesmo.
 
--   codigos 2xx - sucesso
--   codigos 3xx - redirecionamento
--   codigos 4xx - erros do cliente
--   codigos 5xx - erros do servidor
+## Objeto
+É a representação **REAL** de uma classe. O mesmo, pode sofrer **MÉTODOS**, e cada objeto possui **ATRIBUTOS** que o difere de outros objetos de mesma **CLASSE**.
 
-## TCP/IP - Protocolo de internet (base de comunicação na internet)
+### Atributos
+Representa um conjunto de informações do objetos
 
-TCP (transmission control panel)  - garante entrega ordeanda dos pacotes, pacote de transmição
-IP (internet protocol) - roteia os pacotes de dados pela internet (IPV4 e IPV6) - IDENTIFICAÇÃO DE CADA DISPOSITIVO
+### Métodos
+Ações que o objeto pode fazer. Eles sçao similares à **subrotinas**, procedimentos procedurais.
+```java
+jogarBola()
+brincar()
+```
 
-192.168.0.35 -> IPV4 [0-255].[0-255].[0-255].[0-255]
-	                 8bits   8bits   8bits   8bits -> 32bits
-IPV4 -> problema é que se esgotou rapido esses endereços
-1PV6 -> 128 bits, representado tbm em hexadecimal, qtd max. de 340 undecilhões de endereços gerados.
+#### Exemplo
+A classe **cachorro**, terá **atributos** como: 
+- **nome, idade, raça e tamanho**;  \
+E métodos, como: 
+- **latir, brincar e comer**;
+```java
+Classes devem ter a primeira letra maiúscula - Cachorro.java
+E se for duas palavras, de forma camelCase - RacaCachorro.java
+O nomes devem ser substantivos.
+```
 
-****************************************************
+## Interfaces
 
-portas e protocolos > 
+# Aula 3 - Encapsulamento
 
-80	http	web sem criptografia
-443	https	web segura (ssl/tsl)
-21	ftp	transferencia de arquivos
-22	ssh	acesso remoto seguro
-3306	mysql	banco de dados mysql
-6379	redis	banco de dados em memoria
-
-****************************************************
-
-DNS > domain name system -> //localhost = //127.0.0.1
-		google.com = 142.250.217.206
-
-vpn vai trocar com algum outro, no brasil com ip, mas pras atoridades estão com um ip na russi/alemanha,inglaterra  
-		
-PINg uol.com.br -t
-
-DHCP > dynamic host configuration protocol - evita config. manuais
-	distribuição de IPs
-	essencial pra redes de wifi e LANs domesticas
-	
-CDN > content delivery network - melhora performance de sites distribuindo conteudo em servidores ao redor do mundo
-- reduz a latencia e melhora velocidade
-
-exemplos de cdn > cloudflare - segurança e cache
-
-# WEBSOCKETS e REST
-
-São duas abordagens diferentes para comunicação entre cliente e servidor.
-
-**Modelo de Comunicação** \
--   ***WebSocket:***
--   ***Rest:***
-
-**Protocolo** \
--   ***WebSocket:***
--   ***Rest:***
-
-**Latência e Eficiência** \
--   ***WebSocket:***
--   ***Rest:***
-
-certbot - pesquisar
-heroku alternatives (vercel, netify, digital ocean, railway, supabase)
-estudar sobre subir aplicação - serviços gratuitos para subir servidor
