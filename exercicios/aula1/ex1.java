@@ -1,4 +1,6 @@
-//package aula1;
+package aula1;
+
+// Exiba seu nome e endereço com println
 
 public class ex1 {
     //psvm + tab
